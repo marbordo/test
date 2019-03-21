@@ -10,6 +10,7 @@
 
     -webkit-touch-callout:none; /*禁止长按文字出现选择框*/
     -webkit-user-select:none; 
+    -webkit-overflow-scrolling: touch;
     -khtml-user-select:none; 
     -moz-user-select:none; 
     -ms-user-select:none; 
