@@ -24,7 +24,20 @@
 
     <script type="text/javascript" src="keyou-crypto-min.js"></script>
     <script type="text/javascript">
+        window.onload = function(){
+          // 判断是否是IOS
+          if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
 
+            document.getElementsByTagName('input, textarea').on('focus', function() {
+              document.getElementsByTagName('input, textarea').not(this).attr("readonly", "readonly")
+            })
+            document.getElementsByTagName('input, textarea').on('blur', function() {
+              document.getElementsByTagName('input, textarea').removeAttr("readonly")
+            })
+
+            document.getElementsByTagName('select').attr('tabindex', '-1')
+          }
+        }
         var logger = document.getElementById('logger');
 
         var numberKeyboard = new KeyouCryptography.Keyboard(6, true, false);
