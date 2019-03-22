@@ -16,7 +16,9 @@
     -ms-user-select:none; 
     user-select:none; 
 }
-
+#_keyboard div input{
+    -webkit-appearance: none;
+}
 /*字母按钮背景颜色，字体属性设置*/
 #_keyboard div button.letter,
 #_keyboard div button.symbol {
