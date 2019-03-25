@@ -131,12 +131,12 @@
     background-color: #fff;
     background-clip: padding-box;
     
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#4572B7,endColorStr=#2A3E50); /*IE*/ 
-    background:-moz-linear-gradient(top,#4572B7,#2A3E50);/*火狐*/ 
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FFFFFF); /*IE*/ 
+    background:-moz-linear-gradient(top,#FFFFFF,#FFFFFF);/*火狐*/ 
     background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#FFFFFF));/*谷歌*/ 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #4572B7),color-stop(1, #2A3E50));/* Safari & Chrome*/
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4572B7', endColorstr='#2A3E50'); /*IE6 & IE7*/ 
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4572B7', endColorstr='#2A3E50')"; /* IE8 */ 
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #FFFFFF),color-stop(1, #FFFFFF));/* Safari & Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF'); /*IE6 & IE7*/ 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF')"; /* IE8 */ 
 
 }
 
