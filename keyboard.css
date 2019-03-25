@@ -141,16 +141,16 @@
 }
 
 
-/*#_keyboard div button.space {
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#5c5c5c,endColorStr=#353637); IE
-    background:-moz-linear-gradient(top,#5c5c5c,#353637);火狐
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#ffffff));谷歌 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #5c5c5c),color-stop(1, #353637)); Safari & Chrome
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637'); IE6 & IE7
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637')"; /* IE8  
+#_keyboard div button.space {
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FFFFFF); 
+    background:-moz-linear-gradient(top,#FFFFFF,#FFFFFF);
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#ffffff));
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #FFFFFF),color-stop(1, #FFFFFF)); 
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF'); 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF')";  
     border: 0px solid #ccc;
 }
-*/
+
 #_keyboard div button:focus{ outline:none } /*取消点击按钮边框变色*/
 #_keyboard div button.number:active {
     background-color: #ccc;
