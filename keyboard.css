@@ -169,6 +169,8 @@ img{
     -webkit-touch-callout:none;
     pointer-events: none;/*禁止长按图片弹出选择保存[android端]*/
 }
+	
+*{ pointer-events: none; }
 /* #_keyboard div button.symbol:active {
     FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#56ADE7,endColorStr=#56ADE7); IE 
     background:-moz-linear-gradient(top,#56ADE7,#56ADE7);火狐 
