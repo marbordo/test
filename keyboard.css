@@ -166,6 +166,12 @@ button.symbol:active,button.number:active,button.function:active{
 }
 
 img{
+     pointer-events: none; 
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -webkit-user-select:none;  
+     -o-user-select:none;  
+     user-select:none;  
     pointer-events: none;/*禁止长按图片弹出选择保存[android端]*/
 }
 /* #_keyboard div button.symbol:active {
