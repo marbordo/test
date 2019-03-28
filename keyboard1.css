@@ -1,25 +1,25 @@
 /*键盘背景*/
 #_keyboard {
-    background: #FFFFFF;
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FFFFFF); /*IE*/ 
-    background:-moz-linear-gradient(top,#FFFFFF,#FFFFFF);/*火狐*/ 
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#FFFFFF));/*谷歌*/ 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #FFFFFF),color-stop(1, #FFFFFF));/* Safari & Chrome*/
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF'); /*IE6 & IE7*/ 
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF')"; /* IE8 */ 
+	background: #7C7C7C;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#7C7C7C,endColorStr=#3c3c3c); /*IE*/ 
+    background:-moz-linear-gradient(top,#7C7C7C,#3c3c3c);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#7C7C7C), to(#3c3c3c));/*谷歌*/ 
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #7C7C7C),color-stop(1, #3c3c3c));/* Safari & Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7C7C7C', endColorstr='#3c3c3c'); /*IE6 & IE7*/ 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#7C7C7C', endColorstr='#3c3c3c')"; /* IE8 */ 
 
     -webkit-touch-callout:none; /*禁止长按文字出现选择框*/
     -webkit-user-select:none; 
-    -webkit-overflow-scrolling: touch;
     -khtml-user-select:none; 
     -moz-user-select:none; 
     -ms-user-select:none; 
     user-select:none; 
 }
+
 /*字母按钮背景颜色，字体属性设置*/
 #_keyboard div button.letter,
 #_keyboard div button.symbol {
-    font-size: 20px;
+	font-size: 20px;
     font-weight: 500;
     line-height: 1.42;
 
@@ -41,7 +41,7 @@
     vertical-align: top;
     white-space: nowrap;
 
-    color: #3c3c3c;
+    color: #f3f3f3;
     border: 1px solid #8B8B8B;
     border-radius: 6px;
     border-top-left-radius: 6px;
@@ -51,17 +51,17 @@
     background-color: #fff;
     background-clip: padding-box;
     
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FFFFFF); /*IE*/ 
-    background:-moz-linear-gradient(top,#FFFFFF,#FFFFFF);/*火狐*/ 
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#FFFFFF));/*谷歌*/ 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #FFFFFF),color-stop(1, #FFFFFF));/* Safari & Chrome*/
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF'); /*IE6 & IE7*/ 
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF')"; /* IE8 */ 
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#5c5c5c,endColorStr=#353637); /*IE*/ 
+    background:-moz-linear-gradient(top,#5c5c5c,#353637);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#5c5c5c), to(#353637));/*谷歌*/ 
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #5c5c5c),color-stop(1, #353637));/* Safari & Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637'); /*IE6 & IE7*/ 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637')"; /* IE8 */ 
 }
 
 /*数字按钮背景颜色，字体属性设置*/
 #_keyboard div button.number {
-    font-size: 22px;
+	font-size: 22px;
     font-weight: 500;
     line-height: 1.42;
 
@@ -83,8 +83,8 @@
     vertical-align: top;
     white-space: nowrap;
 
-    color: #3c3c3c;
-    border: 1px solid #ccc;
+    color: #f3f3f3;
+    border: 1px solid #3c3c3c;
     border-radius: 0px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
@@ -94,12 +94,12 @@
 }
 
 #_keyboard div button.center {
-    border-left-style: solid;
+	border-left-style: solid;
     border-right-style: solid;
 }
 
 #_keyboard div button.function {
-    font-size: 18px;
+	font-size: 18px;
     font-weight: 500;
     line-height: 1.42;
 
@@ -121,8 +121,8 @@
     vertical-align: top;
     white-space: nowrap;
 
-    color: #353637;
-    border: 1px solid #ccc;
+    color: #f3f3f3;
+    border: 1px solid #8B8B8B;
     border-radius: 3px;
     border-top-left-radius: 3px;
     border-top-right-radius: 3px;
@@ -131,39 +131,41 @@
     background-color: #fff;
     background-clip: padding-box;
     
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FFFFFF); /*IE*/ 
-    background:-moz-linear-gradient(top,#FFFFFF,#FFFFFF);/*火狐*/ 
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#FFFFFF));/*谷歌*/ 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #FFFFFF),color-stop(1, #FFFFFF));/* Safari & Chrome*/
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF'); /*IE6 & IE7*/ 
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#FFFFFF')"; /* IE8 */ 
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#4572B7,endColorStr=#2A3E50); /*IE*/ 
+    background:-moz-linear-gradient(top,#4572B7,#2A3E50);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#4572B7), to(#2A3E50));/*谷歌*/ 
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #4572B7),color-stop(1, #2A3E50));/* Safari & Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4572B7', endColorstr='#2A3E50'); /*IE6 & IE7*/ 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4572B7', endColorstr='#2A3E50')"; /* IE8 */ 
 
 }
 
 
-/*#_keyboard div button.space {
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#5c5c5c,endColorStr=#353637); IE
-    background:-moz-linear-gradient(top,#5c5c5c,#353637);火狐
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#ffffff));谷歌 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #5c5c5c),color-stop(1, #353637)); Safari & Chrome
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637'); IE6 & IE7
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637')"; /* IE8  
-    border: 0px solid #ccc;
+#_keyboard div button.space {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#5c5c5c,endColorStr=#353637); /*IE*/ 
+    background:-moz-linear-gradient(top,#5c5c5c,#353637);/*火狐*/ 
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#5c5c5c), to(#353637));/*谷歌*/ 
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #5c5c5c),color-stop(1, #353637));/* Safari & Chrome*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637'); /*IE6 & IE7*/ 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#5c5c5c', endColorstr='#353637')"; /* IE8 */ 
+	border: 0px solid #ccc;
 }
-*/
-#_keyboard div button:focus{ outline:none } /*取消点击按钮边框变色*/
+
+#_keyboard div button:focus{ outline:none } /*禁止浏览器点击变色*/
 #_keyboard div button.number:active {
-    background-color: #ccc;
+    /*background-color:#56ADE7;*/
+
 }
+/*
 #_keyboard div button.letter:active,
-button.symbol:active, button.function:active{
-    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#ccc,endColorStr=#ccc); /*IE*/ 
-    background:-moz-linear-gradient(top,#ccc,#ccc);/*火狐*/ 
-    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#ccc), to(#ccc));/*谷歌*/ 
-    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #ccc),color-stop(1, #ccc));/* Safari & Chrome*/
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ccc', endColorstr='#ccc'); /*IE6 & IE7*/ 
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ccc', endColorstr='#ccc')"; /* IE8 */ 
-}
+button.symbol:active, button.function:active, button.function:active{
+    FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#56ADE7,endColorStr=#56ADE7); /*IE
+    background:-moz-linear-gradient(top,#56ADE7,#56ADE7);/*火狐
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#56ADE7), to(#56ADE7));/*谷歌
+    background-image: -webkit-gradient(linear,left bottom,left top,color-start(0, #56ADE7),color-stop(1, #56ADE7));/* Safari & Chrome
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#56ADE7', endColorstr='#56ADE7'); /*IE6 & IE7 
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#56ADE7', endColorstr='#56ADE7')"; /* IE8  
+}*/
 
 img{
     pointer-events: none;/*禁止长按图片弹出选择保存[android端]*/
