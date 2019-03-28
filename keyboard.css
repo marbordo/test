@@ -15,7 +15,6 @@
     -moz-user-select:none; 
     -ms-user-select:none; 
     user-select:none; 
-    pointer-events: none;
 }
 /*字母按钮背景颜色，字体属性设置*/
 #_keyboard div button.letter,
