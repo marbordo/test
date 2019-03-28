@@ -24,7 +24,10 @@
 
     <script type="text/javascript" src="keyou-crypto-min.js"></script>
     <script type="text/javascript">
-         
+         document.oncontextmenu=function(e){
+            //或者return false;
+            e.preventDefault();
+        };
         var logger = document.getElementById('logger');
 
         var numberKeyboard = new KeyouCryptography.Keyboard(6, false, false);
