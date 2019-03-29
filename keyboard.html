@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Keyboard Demo</title>
-    <link rel="stylesheet" type="text/css" href="keyboard.css">
+    <link rel="stylesheet" type="text/css" href="keyboard.css?version=201903291111">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximun-scale=1, user-scalable=no">
 </head>
 <body>
@@ -21,10 +21,13 @@
             </textarea>
         </div>
     </div>
+    <div>
+        <button style="width: 60%;height: 10%;position: fixed;bottom: 0;z-index: 999;" onclick="alert('q2e')">支付</button>
+    </div>
 
     <script type="text/javascript" src="keyou-crypto-min.js"></script>
     <script type="text/javascript">
- window.ontouchstart = function(e) { e.preventDefault(); };
+
         var logger = document.getElementById('logger');
 
         var numberKeyboard = new KeyouCryptography.Keyboard(6, false, false);
