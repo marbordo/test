@@ -1,6 +1,7 @@
 /*键盘背景*/
 #_keyboard {
     background: #FFFFFF;
+	z-index:999;
     FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FFFFFF); /*IE*/ 
     background:-moz-linear-gradient(top,#FFFFFF,#FFFFFF);/*火狐*/ 
     background:-webkit-gradient(linear, 0% 0%, 0% 100%,from(#FFFFFF), to(#FFFFFF));/*谷歌*/ 
